@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import os
+import sys
 import random
 import unittest
 
@@ -26,5 +28,5 @@ class TestSequenceFunctions(unittest.TestCase):
         for element in random.sample(self.seq, 5):
             self.assertTrue(element in self.seq)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
